@@ -1,0 +1,74 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+    height: 60px;
+    border-spacing: 10px;
+    font-family:RowanMaskide ;
+    font-size: 30px;
+}
+
+td {
+    border-left: 120px;
+}
+
+@font-face {
+    src: url(./RowanMaskide.ttf);
+    font-family: RowanMaskide;
+}
+
+footer{
+    background: #414141;
+    padding: 20px 0 5px 0;
+    margin: auto;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    bottom: 0;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+.div1{
+    background: #414141;
+    font-family:RowanMaskide ;
+    font-size: 20px;
+    color:white;
+    padding: 40px;
+}
+
+.img0{
+width: 50px;
+}
